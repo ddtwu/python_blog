@@ -1,0 +1,40 @@
+[
+    {
+        "status": "downloaded",
+        "official_name": "Retail Transaction Dataset",
+        "url": "https://www.kaggle.com/datasets/fahadrehman07/retail-transaction-dataset",
+        "file_name": "Retail_Transaction_Dataset.csv",
+        "rename_dict": {
+            "CustomerID": "member_id",
+            "roductID": "product_id",
+            "Quantity": "amount",
+            "Price": "price",
+            "TransactionDate": "raw_datetime",
+            "PaymentMethod": "payment_method",
+            "StoreLocation": "store_location",
+            "ProductCategory": "product_cate1",
+            "DiscountApplied(%)": "discount_rate",
+            "TotalAmount": "payment"
+        }
+    },
+    {
+        "status": "downloaded",
+        "official_name": "E-commerce Business Transaction",
+        "url": "https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business/data",
+        "file_name": "Sales_Transaction_v4a.csv",
+        "rename_dict": {
+            "TransactionNo": "transaction_id",
+            "Date": "transaction_date",
+            "ProductNo": "product_id",
+            "ProductName": "product_name",
+            "Price": "price",
+            "Quantity": "amount",
+            "CustomerNo": "member_id",
+            "Country": "store_location"
+        }
+    }
+]
+
+
+
+

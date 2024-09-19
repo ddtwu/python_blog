@@ -166,3 +166,5 @@ cython_debug/
 # Data source
 data_source/
 
+# Tmp folder
+tmp/
