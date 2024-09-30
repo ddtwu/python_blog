@@ -1,14 +1,20 @@
 [
     {
-        "status": "downloaded",
-        "official_name": "Retail Transaction Dataset",
-        "url": "https://www.kaggle.com/datasets/fahadrehman07/retail-transaction-dataset",
-        "file_name": "Retail_Transaction_Dataset.csv"
+        "status":"downloaded",
+        "official_name":"Retail Transaction Dataset",
+        "url":"https://www.kaggle.com/datasets/fahadrehman07/retail-transaction-dataset",
+        "file_name":"Retail_Transaction_Dataset.csv"
+    },
+    {
+        "status":"downloaded",
+        "official_name": "Transaction Data",
+        "url": "https://www.kaggle.com/datasets/vipin20/transaction-data",
+        "file_name": "transaction_data.csv"
     },
     {
         "status": "downloaded",
-        "official_name": "E-commerce Business Transaction",
-        "url": "https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business/data",
+        "official_name":"E-commerce Business Transaction",
+        "url":"https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business/data",
         "file_name": "Sales_Transaction_v4a.csv",
         "rename_dict": {
             "TransactionNo": "txn_id",
